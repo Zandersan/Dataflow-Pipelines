@@ -1,25 +1,25 @@
 # Apache Beam - Dataflow Pipeline
 
-Technology used: *python, Apache Beam, GCP, Google Cloud SDK Shell*
+Technology used: *Python, Apache Beam, GCP, Google Cloud SDK Shell*
 
 ## Abstract
 
-The project was done as part of the coding challenge. The goal was to perform data transformations with the public dataset on London bicycles to obtain some insights on London cycling behavior. The mein task was to get number of rides from one station to another and present the results in form of text file (start_id, end_id, number_of_rides)
+This project was completed as part of a coding challenge. The goal was to perform data transformations on a public dataset about London bicycles to gather insights into London cycling behavior. The main task was to count the number of rides from one station to another and present the results in a text file in the following format: (start_id, end_id, number_of_rides).
 
 ## Process
 
-1. Starting with GCP project and Google Cloud SDK authentication
-2. Creating s3 bucket with input data and python script
-3. Preparing rides_counter.py script and creating pipeline using apache_beam
-4. Running the script to initialize the dataflow pipeline
-5. Review the data
+1. Set up the GCP project and authenticated with Google Cloud SDK.
+2. Created an S3 bucket with the input data and Python script.
+3. Prepared the rides_counter.py script and built the pipeline using apache_beam.
+4. Ran the script to initialize the Dataflow pipeline.
+5. Reviewed the data.
 
-## Source code: python script & pipeline dependencies
+## Source code: Python script & pipeline dependencies
 
-[*rides_counter.py*](https://github.com/lucjankonopka/dataflow_pipeline_bicycles/blob/main/rides_counter.py)
+[*rides_counter.py*](https://github.com/Zandersan/Dataflow-Pipelines/blob/main/rides_counter.py)
 
-[*setup.py*](https://github.com/lucjankonopka/dataflow_pipeline_bicycles/blob/main/setup.py)
+[*setup.py*](https://github.com/Zandersan/Dataflow-Pipelines/blob/main/setup.py)
 
 ## Output
 
-The outcome was a [*outfile.txt*](https://raw.githubusercontent.com/lucjankonopka/dataflow_pipeline_bicycles/main/output.txt) file that presents results in expected format.
+The outcome was a [*outfile.txt*](https://github.com/Zandersan/Dataflow-Pipelines/blob/main/output.txt) file that presents results in expected format.
